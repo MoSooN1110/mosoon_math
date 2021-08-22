@@ -17,7 +17,7 @@ $A$を集合としたとき、$x$が$A$の要素であることを$x \in A$ と�
 ### 公理 A1 - 外延性の公理
 <!-- Axiom,Set-->
 
-$$ \forall A, \forall B \in Set (\forall x (x \in A \iff x \in B) \implies A = B$$
+$$ \forall A \forall B \in Set (\forall x (x \in A \iff x \in B) \implies A = B$$
 (A1) 
 (Axiom of Extensionality)
 
@@ -28,7 +28,7 @@ $$ \forall A, \forall B \in Set (\forall x (x \in A \iff x \in B) \implies A = B
 ### 公理 A2 - 空集合の公理
 <!-- Axiom,Set-->
 
-$$ \exists x, \forall y, \neg(y \in x) $$
+$$ \exists x \forall y \neg(y \in x) $$
 
 (A2)
 (Axiom of Empty Set)
