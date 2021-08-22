@@ -28,7 +28,7 @@ $$ \forall A, \forall B \in Set (\forall x (x \in A \iff x \in B) \implies A = B
 ### 公理 A2 - 空集合の公理
 <!-- Axiom,Set-->
 
-$$ \exist x, \forall y, \neg(y \in x) $$
+$$ \exists x, \forall y, \neg(y \in x) $$
 
 (A2)
 (Axiom of Empty Set)
