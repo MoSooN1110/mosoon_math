@@ -29,37 +29,35 @@ $$ A  \backslash B := \{ x ; x \in A \land x \notin B \} $$
 
 ## ZFC公理系
 
-### 公理 A1 - 外延性の公理
+### 公理 A1 - 外延性の公理 (Axiom of Extensionality)
 <!-- Axiom,Set-->
 
 $$ \forall A \forall B \in Set (\forall x (x \in A \iff x \in B) \implies A = B$$
 (A1) 
-(Axiom of Extensionality)
+
 
 </br>
 
 上の公理は２つの集合が同一であるとは、集合に含まれる要素が全く同じ場合であるということを述べている。
 
-### 公理 A2 - 空集合の公理
+### 公理 A2 - 空集合の公理 (Axiom of Empty Set)
+
 <!-- Axiom,Set-->
 
 $$ \exists x \forall y \neg(y \in x) $$
 
-(A2)
-(Axiom of Empty Set)
 
 </br>
 
 A2の式$x$を空集合と呼び通常$\emptyset$で表す。
 
 
-### 公理 A3 - 対の公理
+### 公理 A3 - 対の公理 (Axiom of paring)
 <!-- Axiom,Set-->
 
 $$ \forall x \forall y \exists A \forall t (t \in A \iff (t = x \lor t = y))$$
 
-(A3)
-(Axiom of paring)
+
 
 上式の$A$を$\{x,y \}$と表す。
 
