@@ -18,7 +18,7 @@
 
 1. $f,g,h \in Mor Cod(f) = Dom(g) \land Cod(g) = Dom(h)\\ \implies Com(Com(f,g),h) = Com(f,Com(g,h))$
 
-2. $\forall f \in Mor Com(Mor(Id(Cod(f))),f) = Com(,fMor(Id(Dom(f))))$
+2. $\forall f \in Mor ,Com(Mor(Id(Cod(f))),f) = Com(,fMor(Id(Dom(f))))$
 
 <!-- # 随伴関手
 
