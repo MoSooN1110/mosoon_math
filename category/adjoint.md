@@ -14,6 +14,11 @@
 - $Id$ は$Id:Ob \rightarrow Mor$の射
 - $Com$ は$Com:(Mor,Mor) \rightarrow Mor$の射
   
+これら６つ組は以下の公理を満たす
+
+1. $f,g,h \in Mor Cod(f) = Dom(g) \land Cod(g) = Dom(h)\\ \implies Com(Com(f,g),h) = Com(f,Com(g,h))$
+
+2. $\forall f \in Mor Com(Mor(Id(Cod(f))),f) = Com(,fMor(Id(Dom(f))))$
 
 <!-- # 随伴関手
 
