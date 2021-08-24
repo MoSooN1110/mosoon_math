@@ -5,7 +5,7 @@
 
 ### 定義D1:圏 (Category)
 
-圏(Category)とは以下で定義される$<Ob,Mor,Id,Dom,Cod,Com>$の６つ組である。
+圏(Category)とは以下で定義される$(Ob,Mor,Id,Dom,Cod,Com)$の６つ組である。
 
 - $Ob$ は対象(Objec)の集まり（集合とは限らない）
 - $Mor$ は射(Morphism)の集まり（集合とは限らない）
