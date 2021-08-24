@@ -1,10 +1,21 @@
-# 圏
+# 圏論
 
-## 圏 - 定義
+圏論を書きます。
+## 圏
 
-これから書く
+### 定義D1:圏 (Category)
 
-# 随伴関手
+圏(Category)とは以下で定義される$<Ob,Mor,Id,Dom,Cod,Com>$の６つ組である。
+
+- $Ob$ は対象(Objec)の集まり（集合とは限らない）
+- $Mor$ は射(Morphism)の集まり（集合とは限らない）
+- $Dom$は$Dom:Mor \rightarrow Ob$の射
+- $Cod$は$Cod:Mor \rightarrow Ob$をの射
+- $Id$ は$Id:Ob \rightarrow Mor$の射
+- $Com$ は$Com:(Mor,Mor) \rightarrow Mor$の射
+  
+
+<!-- # 随伴関手
 
 ##  随伴関手 - 定義
 
@@ -18,5 +29,5 @@ $\phi_{cd}(f) = g$のとき$g$を$f$の右随伴射(right adjunct),$f$を$g$の�
 
 $q:d \rightarrow d^\prime を$$D$の射とする。つまり$Hom_D(d,d^\prime) \ni q$である。$q$の右随伴射が$Gq$と$\phi$との間で以下の図式が可換になる。
 
-<!-- <p> <figure><img src="diagram/out.svg" width = 100%/> </figure></p> -->
-
+<p> <figure><img src="diagram/out.svg" width = 100%/> </figure></p>
+ -->
