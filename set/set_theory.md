@@ -69,11 +69,11 @@ $$ \forall x \exists y  \forall z (z \in y \iff \exists w (z \in w \land w \in x
 
 $x = \{\{ 1,2,3 \}, \{ 4,5 \} \} , y = \{ 1,2,3,4,5 \}$ が上の公理を満たす一例。集合の集合が合ったときにそれら要素を集めた集合の存在を規定している。
 
-### 公理 A5 - 無限公理
+### 公理 A5 - 無限公理 (axiom of infinity)
 <!-- Axiom,Set-->
 $$ \exists A (\emptyset \in A \land \forall x \in A( (x \cup \{ x \}) \in A)) $$
 
-#### お気持ち
+
 上の公理は次の集合を帰納的に定義している。
 
 $$\{ \emptyset, \emptyset \cup \{\emptyset  \},\emptyset \cup \{\emptyset  \} \cup \{ \emptyset \cup \{\emptyset  \} \} ... ...\} $$
@@ -81,19 +81,40 @@ $$\{ \emptyset, \emptyset \cup \{\emptyset  \},\emptyset \cup \{\emptyset  \} \c
 先頭から$a_1,a_2,a_3...$とすると $a_1 \subset a_2, a_2 \subset a_3 ...$ となるので自然数$\mathbb{N}$のように扱うことができる集合が構築できる。
 
 
-### 公理 A6 - 冪集合の公理
+### 公理 A6 - 冪集合の公理(axiom of power set)
 <!-- Axiom,Set-->
 $$\forall A \exists P \forall B (B \in P \iff \forall C (C \in B \implies C \in A)) $$
 
 $P$は$A$の部分集合すべてを要素に持つ集合でありこれを冪集合と呼ぶ。$\mathfrak{P}(A)$と表記する。
 
 
-### 公理 A7 - 置換公理
+### 公理 A7 - 置換公理( axiom of replacement)
+
+$$ \forall x \forall y \forall z((\psi(x, y) \wedge \psi(x, z)) \rightarrow y=z) \rightarrow \forall X \exists A \forall y(y \in A \leftrightarrow \exists x \in X \psi(x, y))$$
+<!-- https://scrapbox.io/mrsekut-p/%E7%BD%AE%E6%8F%9B%E5%85%AC%E7%90%86 -->
+
+$\psi$という関数が存在するならば、集合$A$が存在してその要素は$\psi(x)$を持つ。
+
+前半の論理は$\psi$が関数であることを規定している。
+
 ### 公理 A8 - 正則性公理
 <!-- Axiom,Set-->
 
+$$ \forall A (A \not = \emptyset \implies \exists x \in A \forall t \in A (t \notin x))$$
 
-</br>
+空でない集合は自身と交わらない要素を持つ。言い換えると集合は$A \in A$ではないということ。
+
+
+#### -
+以上８つの公理はZF公理系と呼ばれる公理系を成し、次の選択公理を加えてZFC公理系と呼ばれる。
+### 公理 A9 - 選択公理
+
+$$ \forall X(\emptyset \notin X \land \forall x \in X \forall y\in X(x \not = y \implies x \cap y = \emptyset)) \implies \exists A \forall x \in X \exists t((x \cap A = {t}))$$
+
+<!-- 集合は空集合を要素に持つとは限らない（なんか持つと誤解していた） -->
+
+<!-- Axiom,Set-->
+
 ## 参考文献
 
 1. 内田 伏一 ,"集合と位相",裳華房,1986
