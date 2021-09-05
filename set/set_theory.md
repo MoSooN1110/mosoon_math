@@ -107,6 +107,7 @@ $$ \forall A (A \not = \emptyset \implies \exists x \in A \forall t \in A (t \no
 
 #### -
 以上８つの公理はZF公理系と呼ばれる公理系を成し、次の選択公理を加えてZFC公理系と呼ばれる。
+
 ### 公理 A9 - 選択公理
 
 $$ \forall X(\emptyset \notin X \land \forall x \in X \forall y\in X(x \not = y \implies x \cap y = \emptyset)) \implies \exists A \forall x \in X \exists t((x \cap A = {t}))$$
