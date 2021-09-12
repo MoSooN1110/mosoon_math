@@ -1,9 +1,10 @@
 # 圏論
 
 圏論を書きます。
+
 ## 圏
 
-### 定義D1:圏 (Category)
+### 定義-D1:圏 (Category)
 
 圏(Category)とは以下で定義される$(Ob,Mor,Id,Dom,Cod,Com)$の６つ組である。
 
@@ -20,6 +21,17 @@
 
 2. $\forall f \in Mor ,Com(Mor(Id(Cod(f))),f) = Com(f,Mor(Id(Dom(f))))$
 
+記法として、圏$C$の対象の集まりを$Ob(C)$,射の集まりを$Mor(C)$と書く。
+### 定義-D.2:関手
+
+$C$,$D$を圏とする。$C$から$D$への関手とは$a \in Ob(C) に F(a) \in Ob(D)$を $f \in Mor(c)$に$F(f) \in Mor(D)$を対応させる関数であり、以下を満たす。
+
+ 1. $d:a \rightarrow b \implies F(a) \rightarrow F(b)$
+ 2. $Cod(f) = Dom(g) \implies F(g\circ f) = F(g) \circ F(f)$
+ 3. $a \in C$について$F(id_a) = id_{F(a)}$ 
+
+
+ 
 <!-- # 随伴関手
 
 ##  随伴関手 - 定義
