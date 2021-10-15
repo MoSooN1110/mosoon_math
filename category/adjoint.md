@@ -40,7 +40,7 @@ $F,G:C\rightarrow D$ を関手とする。FからGへの自然変換とはDの�
 ### 定義：普遍射
 
 $C$,$D$を圏とする。
-$F:D\rightarrow C$ を関手とする。 $c \in C$について$c$から$F$への普遍射(universal arrow)とは$D$の対象$r$と$C$の射$f:c \rightarrow Fd$からなる全ての対$<d,f>$について$Sf^\prime \circ u = f$となる$D$の一意な射$f^\prime:r \rightarrow d$が存在するものである。
+$F:D\rightarrow C$ を関手とする。 $c \in C$について$c$から$F$への普遍射(universal arrow)とは$D$の対象$r$と$C$の射$f:c \rightarrow Fd$からなる全ての対$<d,f>$について$Sf^{\prime} \circ u = f$となる$D$の一意な射$f^{\prime} :r \rightarrow d$が存在するものである。
 
 <p> <figure><img src="fig/universal_arrow.png" width = 65%/>  <figcaption>図：普遍射</figcaption></figure></p>
 
